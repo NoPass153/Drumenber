@@ -71,8 +71,11 @@
             android:text="loing"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <!--New Register-->
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtNewRegister"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
             android:layout_gravity="center_horizontal"
@@ -80,6 +83,7 @@
             android:text="New Register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 
